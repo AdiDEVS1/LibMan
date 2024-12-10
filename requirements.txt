@@ -1,6 +1,5 @@
 Flask>=2.1,<2.3  # Allow compatible versions of Flask between 2.1 and 2.3
 gunicorn>=21.2.0,<22  # Loosen gunicorn version to avoid conflicts
-numpy>=1.21,<1.22  # Ensure a compatible range for numpy
-pandas>=2.2.0,<2.3  # Ensure a compatible range for pandas
+
 requests>=2.28.0,<2.30  # Requests package with a range to avoid conflicts
 # Add any other necessary packages with compatible versions
